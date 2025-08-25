@@ -1,2 +1,27 @@
-# Project exclude paths
-/target/
+# Компиляция Java
+*.class
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Логи
+*.log
+
+# Другие временные файлы
+.DS_Store
